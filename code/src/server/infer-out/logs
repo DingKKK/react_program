@@ -1,0 +1,115 @@
+[4877][      debug] Loading models took 71.539ms
+[4879][      debug] Sqlite write daemon: starting up
+[4879][      debug] Sqlite write daemon: set up complete, waiting for connections
+[4877][environment] CWD = /home/njucs/code/src/server
+[4877][environment] No .inferconfig file found
+[4877][environment] Project root = /home/njucs/code/src/server
+[4877][environment] INFER_ARGS =   @/tmp/args.tmp.e72c25
+[4877][environment] command line arguments:   /home/njucs/infer-linux64-v1.1.0/bin/infer run
+[4877][environment]                           --pulse -- clang -c example.c
+[4877][environment] Available memory at startup: 4433 MB
+[4877][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), pulse (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[4877][environment] Scheduler: file
+[4877][environment] Cores used: 4
+[4877][environment] Infer version v1.1.0
+[4877][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[4877][environment] 
+[4877][   progress] Capturing in make/cc mode...
+[4877][      debug] 
+[4877][      debug] *** Beginning capture of file /home/njucs/code/src/server/example.c ***
+[4877][      debug] Loading the following linters files: /home/njucs/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[4877][      debug] Elapsed: 90.899ms.
+[4877][      debug] GC stats for capture:
+[4877][      debug]   minor_words: 1.49054e+06
+[4877][      debug]   promoted_words: 271809
+[4877][      debug]   major_words: 284013
+[4877][      debug]   minor_collections: 3
+[4877][      debug]   major_collections: 0
+[4877][      debug]   compactions: 0
+[4877][      debug]   top_heap_words: 1006592
+[4877][      debug]   
+[4877][environment] Parallel jobs: 4
+[4877][   progress] Found 1 source file to analyze in /home/njucs/code/src/server/infer-out
+[4884][   progress] example.c starting
+[4884][   progress] example.c DONE
+[4877][      debug] Backend stats:
+[4877][      debug]   summary_file_try_load= 27
+[4877][      debug]   summary_read_from_disk= 0
+[4877][      debug]   summary_cache_hits= 7 (20%)
+[4877][      debug]   summary_cache_misses= 27
+[4877][      debug]   ondemand_procs_analyzed= 1
+[4877][      debug]   ondemand_local_cache_hits= 17 (80%)
+[4877][      debug]   ondemand_local_cache_misses= 4
+[4877][      debug]   proc_locker_lock_time_user= 0.00000000
+[4877][      debug]   proc_locker_lock_time_sys= 0.00000000
+[4877][      debug]   proc_locker_lock_time_wall= 0.00000000
+[4877][      debug]   proc_locker_unlock_time_user= 0.00000000
+[4877][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[4877][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[4877][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[4877][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[4877][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[4877][      debug]   restart_scheduler_total_time_user= 0.00000000
+[4877][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[4877][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[4877][      debug]   
+[4877][      debug] GC stats for backend_stats.gc_stats_add.:
+[4877][      debug]   minor_words: 2.0364e+06
+[4877][      debug]   promoted_words: 27948
+[4877][      debug]   major_words: 30587
+[4877][      debug]   minor_collections: 2
+[4877][      debug]   major_collections: 0
+[4877][      debug]   compactions: 0
+[4877][      debug]   top_heap_words: 4026368
+[4877][      debug]   
+[4877][      debug] GC stats for backend_stats.gc_stats_max.:
+[4877][      debug]   minor_words: 2.03624e+06
+[4877][      debug]   promoted_words: 27948
+[4877][      debug]   major_words: 30587
+[4877][      debug]   minor_collections: 2
+[4877][      debug]   major_collections: 0
+[4877][      debug]   compactions: 0
+[4877][      debug]   top_heap_words: 1006592
+[4877][      debug]   
+[4877][      debug] Average over 4 processes
+[4877][      debug] GC stats for backend_stats.gc_stats_average.:
+[4877][      debug]   minor_words: 509101
+[4877][      debug]   promoted_words: 6987
+[4877][      debug]   major_words: 7646.75
+[4877][      debug]   minor_collections: 0
+[4877][      debug]   major_collections: 0
+[4877][      debug]   compactions: 0
+[4877][      debug]   top_heap_words: 1006592
+[4877][      debug]   
+[4877][      debug] Analysis phase finished in 103ms
+[4877][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01924900
+[4877][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01920700
+[4877][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.10325967
+[4877][      debug] GC stats for analysis_scheduler:
+[4877][      debug]   minor_words: 12315
+[4877][      debug]   promoted_words: 17504
+[4877][      debug]   major_words: 26210
+[4877][      debug]   minor_collections: 1
+[4877][      debug]   major_collections: 2
+[4877][      debug]   compactions: 1
+[4877][      debug]   top_heap_words: 1006592
+[4877][      debug]   
+[4877][      debug] GC stats for report:
+[4877][      debug]   minor_words: 24580
+[4877][      debug]   promoted_words: 0
+[4877][      debug]   major_words: 269
+[4877][      debug]   minor_collections: 0
+[4877][      debug]   major_collections: 0
+[4877][      debug]   compactions: 0
+[4877][      debug]   top_heap_words: 1006592
+[4877][      debug]   
+[4877][      debug] GC stats for main_process_full:
+[4877][      debug]   minor_words: 3.1837e+06
+[4877][      debug]   promoted_words: 457496
+[4877][      debug]   major_words: 1.00472e+06
+[4877][      debug]   minor_collections: 23
+[4877][      debug]   major_collections: 7
+[4877][      debug]   compactions: 2
+[4877][      debug]   top_heap_words: 1006592
+[4877][      debug]   
+[4879][      debug] Sqlite write daemon: terminating

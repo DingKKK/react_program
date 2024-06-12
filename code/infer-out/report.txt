@@ -1,0 +1,13 @@
+#0
+intermediate_result/example.c:5: error: Memory Leak
+  Pulse found a potential memory leak. Memory dynamically allocated at line 4 by call to `malloc`, is not freed after the last access at line 5, column 4.
+  3. int main(){
+  4. int *p =(int*)malloc(sizeof(int)*10);int *q=(int*)malloc(sizeof(int)*10);int i ;scanf("%d",&i);
+  5. if(i){
+        ^
+  6. free(p);
+  7. }else {
+
+Found 1 issue
+  Issue Type(ISSUED_TYPE_ID): #
+    Memory Leak(MEMORY_LEAK): 1

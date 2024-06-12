@@ -1,0 +1,115 @@
+[7469][      debug] Loading models took 69.75ms
+[7470][      debug] Sqlite write daemon: starting up
+[7470][      debug] Sqlite write daemon: set up complete, waiting for connections
+[7469][environment] CWD = /home/njucs/bugDetection&Repair/code
+[7469][environment] No .inferconfig file found
+[7469][environment] Project root = /home/njucs/bugDetection&Repair/code
+[7469][environment] INFER_ARGS =   @/tmp/args.tmp.523f0c
+[7469][environment] command line arguments:   ../infer-linux64-v1.1.0/bin/infer run --pulse --
+[7469][environment]                           clang -c ./intermediate_result/example.c
+[7469][environment] Available memory at startup: 4990 MB
+[7469][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), pulse (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[7469][environment] Scheduler: file
+[7469][environment] Cores used: 4
+[7469][environment] Infer version v1.1.0
+[7469][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[7469][environment] 
+[7469][   progress] Capturing in make/cc mode...
+[7469][      debug] 
+[7469][      debug] *** Beginning capture of file /home/njucs/bugDetection&Repair/code/intermediate_result/example.c ***
+[7469][      debug] Loading the following linters files: /home/njucs/bugDetection&Repair/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[7469][      debug] Elapsed: 78.798ms.
+[7469][      debug] GC stats for capture:
+[7469][      debug]   minor_words: 1.41646e+06
+[7469][      debug]   promoted_words: 271831
+[7469][      debug]   major_words: 284035
+[7469][      debug]   minor_collections: 3
+[7469][      debug]   major_collections: 1
+[7469][      debug]   compactions: 0
+[7469][      debug]   top_heap_words: 1006592
+[7469][      debug]   
+[7469][environment] Parallel jobs: 4
+[7469][   progress] Found 1 source file to analyze in /home/njucs/bugDetection&Repair/code/infer-out
+[7477][   progress] intermediate_result/example.c starting
+[7477][   progress] intermediate_result/example.c DONE
+[7469][      debug] Backend stats:
+[7469][      debug]   summary_file_try_load= 27
+[7469][      debug]   summary_read_from_disk= 0
+[7469][      debug]   summary_cache_hits= 7 (20%)
+[7469][      debug]   summary_cache_misses= 27
+[7469][      debug]   ondemand_procs_analyzed= 1
+[7469][      debug]   ondemand_local_cache_hits= 17 (80%)
+[7469][      debug]   ondemand_local_cache_misses= 4
+[7469][      debug]   proc_locker_lock_time_user= 0.00000000
+[7469][      debug]   proc_locker_lock_time_sys= 0.00000000
+[7469][      debug]   proc_locker_lock_time_wall= 0.00000000
+[7469][      debug]   proc_locker_unlock_time_user= 0.00000000
+[7469][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[7469][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[7469][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[7469][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[7469][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[7469][      debug]   restart_scheduler_total_time_user= 0.00000000
+[7469][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[7469][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[7469][      debug]   
+[7469][      debug] GC stats for backend_stats.gc_stats_add.:
+[7469][      debug]   minor_words: 2.0367e+06
+[7469][      debug]   promoted_words: 25225
+[7469][      debug]   major_words: 27945
+[7469][      debug]   minor_collections: 2
+[7469][      debug]   major_collections: 2
+[7469][      debug]   compactions: 0
+[7469][      debug]   top_heap_words: 4026368
+[7469][      debug]   
+[7469][      debug] GC stats for backend_stats.gc_stats_max.:
+[7469][      debug]   minor_words: 2.03654e+06
+[7469][      debug]   promoted_words: 25225
+[7469][      debug]   major_words: 27945
+[7469][      debug]   minor_collections: 2
+[7469][      debug]   major_collections: 2
+[7469][      debug]   compactions: 0
+[7469][      debug]   top_heap_words: 1006592
+[7469][      debug]   
+[7469][      debug] Average over 4 processes
+[7469][      debug] GC stats for backend_stats.gc_stats_average.:
+[7469][      debug]   minor_words: 509176
+[7469][      debug]   promoted_words: 6306.25
+[7469][      debug]   major_words: 6986.25
+[7469][      debug]   minor_collections: 0
+[7469][      debug]   major_collections: 0
+[7469][      debug]   compactions: 0
+[7469][      debug]   top_heap_words: 1006592
+[7469][      debug]   
+[7469][      debug] Analysis phase finished in 79.019ms
+[7469][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01205700
+[7469][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.02030900
+[7469][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.07901870
+[7469][      debug] GC stats for analysis_scheduler:
+[7469][      debug]   minor_words: 12320
+[7469][      debug]   promoted_words: 17537
+[7469][      debug]   major_words: 26243
+[7469][      debug]   minor_collections: 1
+[7469][      debug]   major_collections: 2
+[7469][      debug]   compactions: 1
+[7469][      debug]   top_heap_words: 1006592
+[7469][      debug]   
+[7469][      debug] GC stats for report:
+[7469][      debug]   minor_words: 24677
+[7469][      debug]   promoted_words: 0
+[7469][      debug]   major_words: 275
+[7469][      debug]   minor_collections: 0
+[7469][      debug]   major_collections: 0
+[7469][      debug]   compactions: 0
+[7469][      debug]   top_heap_words: 1006592
+[7469][      debug]   
+[7469][      debug] GC stats for main_process_full:
+[7469][      debug]   minor_words: 3.10995e+06
+[7469][      debug]   promoted_words: 457603
+[7469][      debug]   major_words: 1.00483e+06
+[7469][      debug]   minor_collections: 22
+[7469][      debug]   major_collections: 7
+[7469][      debug]   compactions: 2
+[7469][      debug]   top_heap_words: 1006592
+[7469][      debug]   
+[7470][      debug] Sqlite write daemon: terminating
